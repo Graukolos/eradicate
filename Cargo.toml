@@ -1,6 +1,6 @@
 [package]
 name = "eradicate"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Max Erdelmeier <graukolos@graukolos.tech>"]
 edition = "2021"
 description = "A cli utility to remove hosts from your known_hosts file"
