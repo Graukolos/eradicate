@@ -1,7 +1,14 @@
 [package]
 name = "eradicate"
 version = "0.1.0"
+authors = ["Max Erdelmeier <graukolos@graukolos.tech>"]
 edition = "2021"
+description = "A cli utility to remove hosts from your known_hosts file"
+readme = "README.md"
+repository = "https://github.com/graukolos/eradicate"
+license = "GPL-3.0"
+keywords = ["cli", "ssh"]
+categories = ["command-line-utilities"]
 
 [dependencies]
 clap = { version = "3.2.8", features = ["derive"]}
