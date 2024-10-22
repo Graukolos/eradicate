@@ -1,7 +1,7 @@
 [package]
 name = "eradicate"
-version = "0.1.4"
-authors = ["Max Erdelmeier <graukolos@graukolos.tech>"]
+version = "0.1.5"
+authors = ["Max Erdelmeier <max.erdelmeier@graukolos.tech>"]
 edition = "2021"
 description = "A cli utility to remove hosts from your known_hosts file"
 readme = "README.md"
@@ -11,8 +11,8 @@ keywords = ["cli", "ssh"]
 categories = ["command-line-utilities"]
 
 [dependencies]
-clap = { version = "4.5.0", features = ["derive"] }
-colorful = "0.2.2"
+clap = { version = "4.5.20", features = ["derive"] }
+colorful = "0.3.2"
 
 [profile.release]
 lto = true
